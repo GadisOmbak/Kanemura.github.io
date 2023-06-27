@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(../images/WallpaperMiku.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+#wrapper {
+    width:950px;
+    height:780px;
+    margin:auto;
+}
+#wrapper #header {
+    min-height:60px;
+    padding-top:20px;
+}
+#wrapper #menu {
+    min-height:50px;
+    background-color: purple;
+}
+#wrapper #content {
+    min-height:600px;
+    overflow:hidden;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+#wrapper #content #content_left {
+    width:620px;
+    min-height:560px;
+    float:left;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+#wrapper #content #content_left h2{
+    font-size:36px;
+    margin-bottom:5px;
+    color:skyblue;
+}
+#wrapper #content #content_left p img {
+    width: 250px;
+    height:auto;
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+#wrapper #content #content_left p {
+    text-align:justify;
+    margin-bottom:20px;
+    color:black;
+}
+#wrapper #content #content_right{
+    width:270px;
+    height:560px;
+    float:right;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-right:20px;
+}
+#wrapper #content #content_right h2 {
+    font-size:36px;
+    text-align:center;
+    color: skyblue;
+    margin-top: 25px;
+}
+#wrapper #content #content_right img {
+    width:100%;
+    height:auto;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    margin-bottom:20px;
+}
+#wrapper #content #content_right h3 {
+    font-size:24px;
+    text-align:center;
+    margin-bottom:10px;
+    color:black;
+}
+#wrapper #content #content_right h4 {
+    font-size:18px;
+    text-align:center;
+    margin-bottom:20px;
+    color:black;
+}
+#wrapper #content #content_right p {
+    text-align:center;
+    margin-bottom:20px;
+    color:black;
+}
+#wrapper #footer {
+    height:50px;
+    background-color:black;
+    font-size:18px;
+    color: white;
+    padding-left:20px;
+    line-height:50px;
+    text-align:center;
+}
